@@ -1,0 +1,47 @@
+.vModal {
+  background: skyblue;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  margin-left: -250px;
+  margin-top: -250px;
+  border-radius: 10px;
+  padding: 20px;
+  /* z-index: 2; //우선순위 */
+}
+
+.vModal .title {
+  display: block;
+  justify-content: space-between;
+  position: relative;
+  left: 41%;
+}
+
+.vModal .close {
+  display: flex;
+  justify-content: center;
+}
+
+/* .c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100px;
+  margin: 200px;
+} */
+
+html,
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: pink;
+}
